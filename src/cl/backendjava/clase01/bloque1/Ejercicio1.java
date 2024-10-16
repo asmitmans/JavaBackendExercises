@@ -19,7 +19,7 @@ public class Ejercicio1 {
 			
 			System.out.println("El perimetro del rectangulo es: " + perimetro);
 			System.out.println("El area del rectangulo es: " + area);
-		} catch (Exception e) {
+		} catch (NumberFormatException e) {
 			System.out.println("numero ingresado invalido.");
 		} finally {
 			scanner.close();
