@@ -12,9 +12,8 @@ public class Ejercicio1 {
 		
 		Set<Integer> interseccion = new HashSet<>(A);
 		interseccion.retainAll(B);  
-		//interseccion.removeAll(B);  A - B
-		
-		System.out.println("Interseccion de A y B: " + interseccion);
+				
+		System.out.println("Interseccion de A y B : " + interseccion);
 	}
 
 }
