@@ -26,7 +26,9 @@ public class Ejercicio6 {
 		
 		for (Map.Entry<String, String> entry : mapa.entrySet()) {
 			if (mapaInvertido.containsKey(entry.getValue())) {
-				System.out.printf("La clave '%s' ya está utilizada por el número telefónico '%s'\n", entry.getValue(), mapaInvertido.get(entry.getValue()));
+				System.out.printf("La clave '%s' ya está utilizada por el número telefónico '%s'\n",
+						entry.getValue(),
+						mapaInvertido.get(entry.getValue()));
 			} else {
 				mapaInvertido.put(entry.getValue(), entry.getKey());
 			}			
