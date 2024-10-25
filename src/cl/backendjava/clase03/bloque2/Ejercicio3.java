@@ -47,6 +47,7 @@ public class Ejercicio3 {
 			}
 			
 			nodosVisitados.add(nodo);
+			System.out.println(nodo);
 			
 			if (nodo.contains(0)) {
 				List<List<Integer>> vecinos = generarHijos(nodo);
@@ -60,7 +61,7 @@ public class Ejercicio3 {
 				System.out.println("Solución completa: " + nodo);
 				break;
 			}
-		}
+		}	
 		
 		
 	}
