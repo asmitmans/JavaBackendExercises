@@ -38,19 +38,16 @@ public class OrdenamientoQuicksort {
 	
 	public static void quicksort(int[] arr, int inicio, int fin) {
 		
-				
 		if(inicio >= fin) {
 			return;
 		}
-		
-		
+				
 		int p_izq = inicio;
 		int p_der = fin - 1;
 		int pivote = arr[fin];	// se elige como pivote el ultimo elemento
 		
 		// Procesar el arreglo para dejar menores a la izq. de pivote y mayores a la der.
 		while (p_izq < p_der) {
-			
 			// recorre de izquierda a derecha buscando un elemento mayor o igual al pivote.
 			while (p_izq < fin && arr[p_izq] <= pivote ) {
 				p_izq++;
@@ -67,17 +64,13 @@ public class OrdenamientoQuicksort {
 		        arr[p_izq] = arr[p_der];
 		        arr[p_der] = temp;
 		    }
-		    
 		}
 		
 		// Colocar el pivote en su posición final (p_izq es su posición correcta ahora)
-		
-		
 		if (arr[p_izq] > pivote) {
 	        arr[fin] = arr[p_izq];
 	        arr[p_izq] = pivote;
 	    }
-		
 		
 		// Llamadas recursisvas para ordenar los subarrays
 		quicksort(arr, inicio, p_izq - 1);	// Subarray de elementos menores al pivote
