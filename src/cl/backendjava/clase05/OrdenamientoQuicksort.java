@@ -1,6 +1,5 @@
 package cl.backendjava.clase05;
 
-import java.text.spi.DateFormatProvider;
 import java.util.Arrays;
 
 /**
@@ -17,14 +16,25 @@ public class OrdenamientoQuicksort {
 		
 		int[] arr = {4, 5, 2, 1, 7, 10};
 		
+		// Pruebas:
+		//	int[] arr = {1, 2, 3, 4, 5};
+		//	int[] arr = {5, 4, 3, 2, 1};
+		//	int[] arr = {2, 4};
+		//	int[] arr = {4, 2};
+		//	int[] arr = {3, 3, 3, 3, 3};
+		//	int[] arr = {1, 3, 2, 3, 1};
+		//	int[] arr = {7};
+		//	int[] arr = {};
+		//	int[] arr = {3, -1, 4, -5, 0, 2};
+		//int[] arr = {10, 3, 5, 2, 8, 7, 1};
 		
 		System.out.println(Arrays.toString(arr));
 				
 		quicksort(arr,0,arr.length-1);
 		
-		System.out.println(Arrays.toString(arr));		
+		System.out.println(Arrays.toString(arr));
 		
-	}
+					}
 	
 	public static void quicksort(int[] arr, int inicio, int fin) {
 		
@@ -34,27 +44,20 @@ public class OrdenamientoQuicksort {
 		}
 		
 		
-		System.out.print("[");
-		for (int i =inicio; i <= fin; i++) {
-			System.out.print(arr[i] + " ");
-		}
-		System.out.println("]");
-				
-		
 		int p_izq = inicio;
 		int p_der = fin - 1;
 		int pivote = arr[fin];	// se elige como pivote el ultimo elemento
 		
 		// Procesar el arreglo para dejar menores a la izq. de pivote y mayores a la der.
-		while (p_izq <= p_der) {
+		while (p_izq < p_der) {
 			
 			// recorre de izquierda a derecha buscando un elemento mayor o igual al pivote.
-			while (p_izq < fin && arr[p_izq] < pivote ) {
+			while (p_izq < fin && arr[p_izq] <= pivote ) {
 				p_izq++;
 			}
 			
 			// recorre de derecha a izquierda buscando un elemento menor al pivote.
-			while (p_der > inicio && arr[p_der] > pivote ) {
+			while (p_der > inicio && arr[p_der] >= pivote ) {
 				p_der--;
 			}
 			
@@ -63,16 +66,18 @@ public class OrdenamientoQuicksort {
 		        int temp = arr[p_izq];
 		        arr[p_izq] = arr[p_der];
 		        arr[p_der] = temp;
-		        // Después del intercambio, avanzamos ambos punteros para 
-		        // continuar con el siguiente par no procesado.
-		        p_izq++;
-		        p_der--;
 		    }
+		    
 		}
 		
 		// Colocar el pivote en su posición final (p_izq es su posición correcta ahora)
-		 arr[fin] = arr[p_izq];
-		 arr[p_izq] = pivote;
+		
+		
+		if (arr[p_izq] > pivote) {
+	        arr[fin] = arr[p_izq];
+	        arr[p_izq] = pivote;
+	    }
+		
 		
 		// Llamadas recursisvas para ordenar los subarrays
 		quicksort(arr, inicio, p_izq - 1);	// Subarray de elementos menores al pivote
