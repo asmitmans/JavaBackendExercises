@@ -1,4 +1,4 @@
-## Notas de Creación de Diagramas de Clases en UML
+## Notas de Creación de Diagramas de Clases en UML 
 
 ### Estructura General de una Clase
 1. **Nombre de la Clase**:
