@@ -52,6 +52,12 @@ public class Transaction {
 	public void setTipo(TipoTransaccion tipo) {
 		this.tipo = tipo;
 	}
-	
+
+	@Override
+	public String toString() {
+	    return "Transaction [monto=" + monto + ", fecha=" + fecha + 
+	           (cuentaAsociada != null ? ", cuentaAsociada=" + cuentaAsociada.getNumero() : ", cuentaAsociada=null") +
+	           ", tipo=" + tipo + "]";
+	}
 
 }

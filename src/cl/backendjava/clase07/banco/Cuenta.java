@@ -4,23 +4,23 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Cuenta {
-	private long numero;
+	private int numero;
 	private double saldo;
 	private List<Transaction> transactions = new ArrayList<>();
 	
 	public Cuenta() {
 	}
 
-	public Cuenta(long numero, double saldo) {
+	public Cuenta(int numero, double saldo) {
 		this.numero = numero;
 		this.saldo = saldo;
 	}
 
-	public long getNumero() {
+	public int getNumero() {
 		return numero;
 	}
 
-	public void setNumero(long numero) {
+	public void setNumero(int numero) {
 		this.numero = numero;
 	}
 
@@ -40,6 +40,12 @@ public abstract class Cuenta {
 		this.transactions = transactions;
 	}
 	
+		
+	@Override
+	public String toString() {
+		return "Cuenta [numero=" + numero + ", saldo=" + saldo + ", transactions=" + transactions + "]";
+	}
+
 	public void transferir(double monto, Cuenta cuentaDestino) {
 		if (saldo >= monto) {
 			this.saldo -= monto;

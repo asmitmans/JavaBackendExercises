@@ -12,11 +12,9 @@ public class Cliente {
 	public Cliente() {
 	}
 	
-	public Cliente(String nombre, String rut, List<Cuenta> cuentas) {
-		super();
+	public Cliente(String nombre, String rut) {
 		this.nombre = nombre;
 		this.rut = rut;
-		this.cuentas = cuentas;
 	}
 
 	public String getNombre() {
