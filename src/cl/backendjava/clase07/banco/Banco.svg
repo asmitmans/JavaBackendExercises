@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="870" version="1.1" width="879.48046875" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs/>
+ <g>
+  <g>
+   <rect fill="#C0C0C0" fill-opacity="0.2" height="116" stroke="none" transform="matrix(1 0 0 1 -190 -94)" width="133.90625" x="439" y="111"/>
+  </g>
+  <g>
+   <rect fill="#ffffff" height="116" stroke="none" transform="matrix(1 0 0 1 -190 -94)" width="133.90625" x="432" y="104"/>
+  </g>
+  <g>
+   <path d=" M 242 10 L 375.90625 10 L 375.90625 126 L 242 126 L 242 10 Z Z" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 242 35 L 375.90625 35" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 242 73 L 375.90625 73" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" stroke="none" text-anchor="middle" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="499.453125" y="117.5">
+     Banco
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="437" y="140.5">
+     -clientes: Map
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="437" y="155.5">
+     -cuentas: Map
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="437" y="178.5">
+     +crearClientes(): void
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="437" y="193.5">
+     +simular(): void
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="437" y="208.5">
+     +mostrarInfo(): void
+    </text>
+   </g>
+  </g>
+  <g>
+   <rect fill="#C0C0C0" fill-opacity="0.2" height="101" stroke="none" transform="matrix(1 0 0 1 -190 -94)" width="215.55615234375" x="735" y="191"/>
+  </g>
+  <g>
+   <rect fill="#ffffff" height="101" stroke="none" transform="matrix(1 0 0 1 -190 -94)" width="215.55615234375" x="728" y="184"/>
+  </g>
+  <g>
+   <path d=" M 538 90 L 753.55615234375 90 L 753.55615234375 191 L 538 191 L 538 90 Z Z" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 538 115 L 753.55615234375 115" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 538 168 L 753.55615234375 168" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" stroke="none" text-anchor="middle" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="836.278076171875" y="197.5">
+     Cliente
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="733" y="220.5">
+     -nombre: String
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="733" y="235.5">
+     -rut: String
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="733" y="250.5">
+     -cuentas: List&lt;Cuenta&gt;
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="733" y="273.5">
+     +Cliente(nombre: String, rut: String)
+    </text>
+   </g>
+  </g>
+  <g>
+   <rect fill="#C0C0C0" fill-opacity="0.2" height="146" stroke="none" transform="matrix(1 0 0 1 -190 -94)" width="330.48046875" x="447" y="335"/>
+  </g>
+  <g>
+   <rect fill="#ffffff" height="146" stroke="none" transform="matrix(1 0 0 1 -190 -94)" width="330.48046875" x="440" y="328"/>
+  </g>
+  <g>
+   <path d=" M 250 234 L 580.48046875 234 L 580.48046875 380 L 250 380 L 250 234 Z Z" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 250 259 L 580.48046875 259" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 250 312 L 580.48046875 312" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="italic" font-weight="bold" stroke="none" text-anchor="middle" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="605.740234375" y="341.5">
+     Cuenta
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="445" y="364.5">
+     -numero: int
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="445" y="379.5">
+     -saldo: double
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="445" y="394.5">
+     -transactions: List&lt;Transaction&gt;
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="445" y="417.5">
+     +Cuenta(numero: int, saldo: double)
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="445" y="432.5">
+     +getSaldo(): double
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="445" y="447.5">
+     +transferir(monto: double, cuentaDestino: Cuenta): void
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="italic" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="445" y="462.5">
+     +actualizarSaldoMensual(): void
+    </text>
+   </g>
+  </g>
+  <g>
+   <rect fill="#C0C0C0" fill-opacity="0.2" height="101" stroke="none" transform="matrix(1 0 0 1 -190 -94)" width="330.48046875" x="207" y="535"/>
+  </g>
+  <g>
+   <rect fill="#ffffff" height="101" stroke="none" transform="matrix(1 0 0 1 -190 -94)" width="330.48046875" x="200" y="528"/>
+  </g>
+  <g>
+   <path d=" M 10 434 L 340.48046875 434 L 340.48046875 535 L 10 535 L 10 434 Z Z" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 10 459 L 340.48046875 459" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 10 497 L 340.48046875 497" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" stroke="none" text-anchor="middle" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="365.740234375" y="541.5">
+     CuentaAhorro
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="205" y="564.5">
+     -depositos: List&lt;Transaction&gt;
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="205" y="579.5">
+     -RENTABILIDAD: double {readOnly}
+    </text>
+    <path d=" M 15 492 L 224.30126953125 492" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="205" y="602.5">
+     +actualizarSaldoMensual(): void
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="205" y="617.5">
+     +transferir(monto: double, cuentaDestino: Cuenta): void
+    </text>
+   </g>
+  </g>
+  <g>
+   <rect fill="#C0C0C0" fill-opacity="0.2" height="86" stroke="none" transform="matrix(1 0 0 1 -190 -94)" width="330.48046875" x="735" y="535"/>
+  </g>
+  <g>
+   <rect fill="#ffffff" height="86" stroke="none" transform="matrix(1 0 0 1 -190 -94)" width="330.48046875" x="728" y="528"/>
+  </g>
+  <g>
+   <path d=" M 538 434 L 868.48046875 434 L 868.48046875 520 L 538 520 L 538 434 Z Z" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 538 459 L 868.48046875 459" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 538 482 L 868.48046875 482" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" stroke="none" text-anchor="middle" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="893.740234375" y="541.5">
+     CuentaCorriente
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="733" y="564.5">
+     +costoMantencion: double
+    </text>
+    <path d=" M 543 477 L 695.13427734375 477" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="733" y="587.5">
+     +actualizarSaldoMensual(): void
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="733" y="602.5">
+     +transferir(monto: double, cuentaDestino: Cuenta): void
+    </text>
+   </g>
+  </g>
+  <g>
+   <rect fill="#C0C0C0" fill-opacity="0.2" height="131" stroke="none" transform="matrix(1 0 0 1 -190 -94)" width="455.49755859375" x="399" y="671"/>
+  </g>
+  <g>
+   <rect fill="#ffffff" height="131" stroke="none" transform="matrix(1 0 0 1 -190 -94)" width="455.49755859375" x="392" y="664"/>
+  </g>
+  <g>
+   <path d=" M 202 570 L 657.49755859375 570 L 657.49755859375 701 L 202 701 L 202 570 Z Z" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 202 595 L 657.49755859375 595" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 202 663 L 657.49755859375 663" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" stroke="none" text-anchor="middle" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="620.248779296875" y="677.5">
+     Transaction
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="397" y="700.5">
+     -monto: double
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="397" y="715.5">
+     -fecha: LocalDate
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="397" y="730.5">
+     -cuentaAsociada: Cuenta
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="397" y="745.5">
+     -tipo: TipoTransaccion
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="397" y="768.5">
+     +Transaction(monto: double, tipo: TipoTransaccion)
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="397" y="783.5">
+     +Transaction(monto: double, cuentaAsociada: Cuenta, tipo: TipoTransaccion)
+    </text>
+   </g>
+  </g>
+  <g>
+   <rect fill="#C0C0C0" fill-opacity="0.2" height="106" stroke="none" transform="matrix(1 0 0 1 -190 -94)" width="113.06689453125" x="567" y="855"/>
+  </g>
+  <g>
+   <rect fill="#ffffff" height="106" stroke="none" transform="matrix(1 0 0 1 -190 -94)" width="113.06689453125" x="560" y="848"/>
+  </g>
+  <g>
+   <path d=" M 370 754 L 483.06689453125 754 L 483.06689453125 860 L 370 860 L 370 754 Z Z" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 370 792 L 483.06689453125 792" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="middle" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="617.033447265625" y="859.5">
+     «enumeration»
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" stroke="none" text-anchor="middle" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="617.033447265625" y="874.5">
+     TipoTransaccion
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="565" y="897.5">
+     CARGO
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="565" y="912.5">
+     ABONO
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="565" y="927.5">
+     COSTO
+    </text>
+   </g>
+  </g>
+  <g>
+   <g>
+    <path fill="none" stroke="none"/>
+    <text dominant-baseline="central" fill="#000000" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" stroke="none" text-anchor="start" text-decoration="undefined" transform="matrix(1 0 0 1 -190 -94)" x="565" y="942.5">
+     PENALIZACION
+    </text>
+   </g>
+  </g>
+  <g>
+   <path d=" M 628 433 L 540 381" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 561.7816429098964 384.091930165085 L 540 381 L 553.2156226202848 398.58827219365844" fill="#FFFFFF" paint-order="stroke fill markers" stroke="none"/>
+  </g>
+  <g>
+   <path d=" M 561.7816429098964 384.091930165085 L 540 381 L 553.2156226202848 398.58827219365844 L 561.7816429098964 384.091930165085" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 244 433 L 315 381" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 303.5767604490684 399.8018509238328 L 315 381 L 293.6276335633172 386.2174661375186" fill="#FFFFFF" paint-order="stroke fill markers" stroke="none"/>
+  </g>
+  <g>
+   <path d=" M 303.5767604490684 399.8018509238328 L 315 381 L 293.6276335633172 386.2174661375186 L 303.5767604490684 399.8018509238328" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 426 569 L 418 381" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 422.6377749230393 390.9745197259431 L 418 381 L 414.22635156040474 391.33245263499134 L 418.9353237657459 402.9801084950287" fill="#FFFFFF" paint-order="stroke fill markers" stroke="none"/>
+  </g>
+  <g>
+   <path d=" M 422.6377749230393 390.9745197259431 L 418 381 L 414.22635156040474 391.33245263499134 L 418.9353237657459 402.9801084950287 L 422.6377749230393 390.9745197259431" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 382 233 L 334 127" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 342.0268579371449 134.52127327364812 L 334 127 L 334.35750234402246 137.99418901392997 L 343.075166172777 147.0409919648825" fill="#FFFFFF" paint-order="stroke fill markers" stroke="none"/>
+  </g>
+  <g>
+   <path d=" M 342.0268579371449 134.52127327364812 L 334 127 L 334.35750234402246 137.99418901392997 L 343.075166172777 147.0409919648825 L 342.0268579371449 134.52127327364812" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 537 117 L 377 83" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 387.81569548435334 80.9948239005665 L 377 83 L 386.0657252376176 89.22997800285233 L 398.5194947201928 87.57289262804099" fill="#FFFFFF" paint-order="stroke fill markers" stroke="none"/>
+  </g>
+  <g>
+   <path d=" M 387.81569548435334 80.9948239005665 L 377 83 L 386.0657252376176 89.22997800285233 L 398.5194947201928 87.57289262804099 L 387.81569548435334 80.9948239005665" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 428 702 L 427 753" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="3" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 422.9905210615756 742.7567544868664 L 427 753 L 431.40793861731095 742.9218018899201" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 517 233 L 573 192" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+  <g>
+   <path d=" M 567.2868411842945 201.39999023119321 L 573 192 L 562.313389823855 194.606983494983 L 555.249017956624 204.9962547103288" fill="#FFFFFF" paint-order="stroke fill markers" stroke="none"/>
+  </g>
+  <g>
+   <path d=" M 567.2868411842945 201.39999023119321 L 573 192 L 562.313389823855 194.606983494983 L 555.249017956624 204.9962547103288 L 567.2868411842945 201.39999023119321" fill="none" paint-order="fill stroke markers" stroke="#000000" stroke-dasharray="" stroke-miterlimit="10"/>
+  </g>
+ </g>
+</svg>
