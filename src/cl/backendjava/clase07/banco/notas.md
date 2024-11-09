@@ -12,5 +12,5 @@
    - Implementa `toString()` de forma que sea útil para la depuración y evite problemas potenciales.
    - Si es necesario imprimir objetos complejos, hazlo de forma controlada y asegurándote de que no se genere un ciclo infinito.
 
-## Reflexión Final
+## Reflexión Final 
 Esta experiencia es un ejemplo excelente de cómo situaciones inesperadas pueden surgir incluso en problemas que parecen simples al principio. El manejo de estos casos te ayuda a desarrollar una mentalidad de prevención y cuidado en tu código. La práctica constante con estos detalles hará que tus futuras implementaciones sean más sólidas y a prueba de errores.
